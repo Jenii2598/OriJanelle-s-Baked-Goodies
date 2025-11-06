@@ -1,0 +1,102 @@
+
+body {
+    background-image: linear-gradient(45deg, rgb(251, 249, 252), rgba(28, 189, 189, 0.849));
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Nunito;
+}
+
+.words{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size:10vh;
+    margin: 75px 0px;
+    text-align: center;
+}
+.container{
+    background-color: white !important;
+}
+.brand{
+    font-family: Lobster Two;
+}
+.tagline{
+    font-family: Nunito;
+}
+h3{
+    margin: 50px 100px ;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.food {
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px;
+} 
+
+.all{
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    padding: 0px
+}
+    
+
+#navi{
+    background-color: white;
+    width: 100%;
+}
+.nav-item{
+    margin: 25px 0px 25px 10px;
+}
+
+#navi .nav-pills .nav-link {
+  color: rgba(21, 151, 151, 0.849); /* Your brand's teal color */
+  
+}
+
+#navi .nav-pills .nav-link.active {
+  background-color: rgba(21, 151, 151, 0.849); /* Teal background */
+  color: #ffffff; /* White text */
+}
+
+#IG, #FB{
+    width: 30px;
+    height: 30px;
+    border-radius: 0%;
+    margin: 10px;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.466);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+@media (max-width:600px){
+
+.food{
+    background-color: white;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
