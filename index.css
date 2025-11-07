@@ -41,6 +41,20 @@ img{
     text-align: center;
     padding: 3px;
 } 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 15px;
+}
+
+.gallery-item {
+  position: relative;
+ 
+  margin: 15px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
 
 .all{
     display: flex;
