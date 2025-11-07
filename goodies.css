@@ -51,6 +51,20 @@ border-radius: 15px;
 .name{
     font-size: medium;
 }
+
+.name img{
+    position: absolute; /* Allows it to float independently */
+    bottom: 10px; /* Adjust this for desired distance from bottom */
+    right: 5px; /* Adjust this for desired distance from left */
+    width: 17px; /* Adjust size as needed, e.g., 30px, 40px */
+    height: 17px; /* Maintain aspect ratio */
+    z-index: 10;
+    border-radius: 0;
+} 
+h6 #pb{
+    border-radius: 0;
+    height: 30px;
+}
 .image-placeholder {
   /* --- The Box --- */
   width: 225px;
@@ -75,6 +89,7 @@ margin: 20px;
 border-radius: 15px;
 text-align: center;
 padding: 3px;
+position: relative;
 
 }
 
