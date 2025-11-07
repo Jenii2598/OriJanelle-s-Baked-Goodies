@@ -21,28 +21,24 @@ h1 {
 .tagline{
     font-family: Nunito;
 }
-
 .words .btn{
-width: 30%%;
-color: rgb(255, 255, 255);
-background-color:  rgb(21, 151, 151);
-background-size: 400% 400%;
-font-size: 15px;
-border: none;
-margin-top: 10px;
-padding: 1% 2% 1% 2%;
-border-radius: 5px;
-
+    color: rgb(255, 255, 255);
+    background-color:  rgb(21, 151, 151);
+    background-size: 400% 400%;
+    font-size: 15px;
+    border: none;
+    margin-top: 10px;
+    padding: 1% 2% 1% 2%;
+    border-radius: 5px;
 }
 .seasonal, .classic{
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
-
 img{
-border-radius: 15px;
+    border-radius: 15px;
 }
 .cards img{
     width: 225px;
@@ -51,7 +47,6 @@ border-radius: 15px;
 .name{
     font-size: medium;
 }
-
 .name img{
     position: absolute; /* Allows it to float independently */
     bottom: 10px; /* Adjust this for desired distance from bottom */
@@ -67,35 +62,33 @@ h6 #pb{
 }
 .image-placeholder {
   /* --- The Box --- */
-  width: 225px;
-  height: 225px;
-  background-color: #e0e0e0; /* A light gray background */
-border-radius: 15px;
+    width: 225px;
+    height: 225px;
+    background-color: #e0e0e0; /* A light gray background */
+    border-radius: 15px;
   /* --- The Text --- */
-  color: #26bad4; /* A darker gray for the text */
-  font-family: sans-serif;
-  font-weight: bold;
-  text-align: center;
+    color: #26bad4; /* A darker gray for the text */
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
 
   /* --- The Magic for Centering --- */
-  display: flex;
-  justify-content: center; /* Horizontally centers the text */
-  align-items: center;     /* Vertically centers the text */
+    display: flex;
+    justify-content: center; /* Horizontally centers the text */
+    align-items: center;     /* Vertically centers the text */
 }
 .cards{
-background-color: white;
-width: 230px;
-margin: 20px;
-border-radius: 15px;
-text-align: center;
-padding: 3px;
-position: relative;
-
+    background-color: white;
+    width: 230px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px;
+    position: relative;
 }
-
-h4{padding: 0px}
-
-
+h4{
+    padding: 0px
+}
 #navi{
     background-color: white;
     width: 100%;
@@ -103,12 +96,9 @@ h4{padding: 0px}
 .nav-item{
     margin: 25px 0px 25px 10px;
 }
-
 #navi .nav-pills .nav-link {
-  color: rgba(21, 151, 151, 0.849); /* Your brand's teal color */
-  
+  color: rgba(21, 151, 151, 0.849); /* Your brand's teal color */  
 }
-
 #navi .nav-pills .nav-link.active {
   background-color: rgba(21, 151, 151, 0.849); /* Teal background */
   color: #ffffff; /* White text */
@@ -119,9 +109,6 @@ h4{padding: 0px}
     border-radius: 0%;
     margin: 10px;
 }
-
-
-
 footer{
     background-color: rgba(255, 255, 255, 0.466);
     text-align: center;

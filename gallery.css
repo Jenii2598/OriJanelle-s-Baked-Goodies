@@ -6,7 +6,6 @@ body {
     text-align: center;
     font-family: Nunito;
 }
-
 .brand{
     font-family: Lobster Two;
 }
@@ -20,35 +19,29 @@ body {
 .nav-item{
     margin: 25px 0px 25px 10px;
 }
-
 #navi .nav-pills .nav-link {
   color: rgba(21, 151, 151, 0.849); /* Your brand's teal color */
   
 }
-
 #navi .nav-pills .nav-link.active {
   background-color: rgba(21, 151, 151, 0.849); /* Teal background */
   color: #ffffff; /* White text */
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 h1 {
   text-align: center;
   padding: 20px;
 }
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   padding: 0 15px;
 }
-
 .gallery-item {
   position: relative;
   width: calc(25% - 20px);
@@ -57,11 +50,9 @@ h1 {
   cursor: pointer;
   transition: transform 0.5s ease;
 }
-
 .gallery-item:hover {
   transform: scale(1.1);
 }
-
 /* The Modal (background) */
 .modal {
   display: none;
@@ -96,12 +87,10 @@ h1 {
   from {transform: scale(0.6);}
   to {transform: scale(1);}
 }
-
 .modal.show {
   display: flex;
   opacity: 1;
 }
-
 /* Close button */
 .close {
   position: absolute;
@@ -113,7 +102,6 @@ h1 {
   cursor: pointer;
   transition: transform 0.3s;
 }
-
 /* Caption of modal image */
 .caption {
   position: absolute;
@@ -129,20 +117,17 @@ h1 {
     width: calc(50% - 20px);
   }
 }
-
 @media screen and (max-width: 480px) {
   .gallery-item {
     width: calc(100% - 20px);
   }
 }
-
 #IG, #FB{
     width: 30px;
     height: 30px;
     border-radius: 0%;
     margin: 10px;
 }
-
 footer{
     background-color: rgba(255, 255, 255, 0.466);
     text-align: center;

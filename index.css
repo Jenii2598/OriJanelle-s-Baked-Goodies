@@ -7,7 +7,6 @@ body {
     text-align: center;
     font-family: Nunito;
 }
-
 .words{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -29,11 +28,9 @@ h1 {
 h3{
     margin: 50px 100px ;
 }
-
 img{
     border-radius: 15px;
 }
-
 .food {
     background-color: white;
     margin: 5px;
@@ -42,20 +39,17 @@ img{
     padding: 3px;
 } 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 15px;
 }
-
 .gallery-item {
-  position: relative;
- 
-  margin: 15px;
-  cursor: pointer;
-  transition: transform 0.5s ease;
+    position: relative;
+    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
 }
-
 .all{
     display: flex;
     flex-wrap: wrap;    
@@ -65,8 +59,6 @@ img{
 h4{
     padding: 0px
 }
-    
-
 #navi{
     background-color: white;
     width: 100%;
@@ -74,24 +66,19 @@ h4{
 .nav-item{
     margin: 25px 0px 25px 10px;
 }
-
 #navi .nav-pills .nav-link {
   color: rgba(21, 151, 151, 0.849); /* Your brand's teal color */
-  
 }
-
 #navi .nav-pills .nav-link.active {
   background-color: rgba(21, 151, 151, 0.849); /* Teal background */
   color: #ffffff; /* White text */
 }
-
 #IG, #FB{
     width: 30px;
     height: 30px;
     border-radius: 0%;
     margin: 10px;
 }
-
 footer{
     background-color: rgba(255, 255, 255, 0.466);
     text-align: center;
@@ -99,7 +86,6 @@ footer{
     height: 50px;
 }
 @media (max-width:600px){
-
 .food{
     background-color: white;
     margin: 20px;
@@ -107,10 +93,10 @@ footer{
     text-align: center;
     padding: 3px;
 }
-
 .all{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
 }
