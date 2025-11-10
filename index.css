@@ -150,12 +150,12 @@ footer{
     height: 50px;
 }
 @media screen and (max-width: 768px) {
-  .gallery-item {
+  .gallery-items {
     width: calc(50% - 20px);
   }
 }
 @media screen and (max-width: 480px) {
-  .gallery-item {
+  .gallery-items {
     width: calc(100% - 20px);
   }
 }
