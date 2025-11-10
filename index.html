@@ -56,12 +56,8 @@
     <img src="images/bagels.jpg" width="320px" height="180px" alt="bagels" class="gallery-item">
     
 </div>
-<img src="images/Apple Cider Donuts - Copy.jpg" alt="menu" id="menu" width="60%" class="gallery-items" onclick="openModal('modal1', 'Menu')">
-<div id="modal1" class="modal">
-  <span class="close" onclick="closeModal('modal1')">&times;</span>
-  <img src="images/Apple Cider Donuts - Copy.jpg" alt="menu" class="modal-image">
-  <div class="caption"></div>
-</div>
+<img src="images/Apple Cider Donuts - Copy.jpg" alt="menu" id="menu" width="50%" class="gallery-items">
+
 
 <footer>
     <div class="socials">
@@ -70,23 +66,5 @@
     </div>
 </footer>
 </div>
-<script>
-function openModal(modalId, caption) {
-  let modal = document.getElementById(modalId);
-  modal.style.display = "flex";
-  modal.classList.add("show");
-  let message = modal.querySelector(".caption");
-  message.innerText = caption;
-}
-
-function closeModal(modalId) {
-  let modal = document.getElementById(modalId);
-  modal.classList.remove("show");
-  setTimeout(function () {
-    modal.style.display = "none";
-    modal.querySelector(".caption").innerText = "";
-  }, 300);
-}
-</script>
 </body>
 </html>
